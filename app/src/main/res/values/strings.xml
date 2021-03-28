@@ -1,6 +1,27 @@
 <resources>
     <string name="app_name">Android-fundamentals-02.1-Activities-and-intents</string>
-    <string name="lbl_btnText1">Text1</string>
-    <string name="lbl_Text2">Text2</string>
-    <string name="lbl_btnText3">Text3</string>
+    <string name="lbl_btnText1">Scroll view</string>
+    <string name="lbl_Text2">Intent</string>
+    <string name="lbl_btnText3">Context</string>
+
+    <string name = "text1">
+        A view group that allows the view hierarchy placed within it to be scrolled.
+        Scroll view may have only one direct child placed within it.
+        To add multiple views within the scroll view, make the direct child you add a view group, for example LinearLayout, and place additional views within that LinearLayout.
+        More information under https://developer.android.com/reference/android/widget/ScrollView
+    </string>
+
+    <string name = "text2">
+    An intent is an abstract description of an operation to be performed. It can be used with startActivity to launch an Activity, broadcastIntent to send it to any interested BroadcastReceiver components, and Context.startService(Intent)
+    or Context.bindService(Intent, ServiceConnection, int) to communicate with a background Service.
+    More information under https://developer.android.com/reference/android/content/Intent
+    </string>
+
+<string name = "text3">
+    Context:
+   Interface to global information about an application environment. This is an abstract class whose implementation is provided by the Android system.
+    It allows access to application-specific resources and classes, as well as up-calls for application-level operations such as launching activities, broadcasting and receiving intents, etc.
+    More information under https://developer.android.com/reference/android/content/Context
+    </string>
+
 </resources>
